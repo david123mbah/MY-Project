@@ -1,4 +1,4 @@
-name: yourname
+name: movein
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -30,36 +30,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  sqflite: ^2.0.0+4
-  
-  path: ^1.8.3
-  firebase_core: ^2.25.4
-  cloud_firestore: ^4.15.2
-  firebase_auth: ^4.17.0
-  firebase_storage: ^11.2.4
-  google_sign_in: ^5.2.1
-  google_maps_flutter: ^2.2.0
-  
-  
-  
-    
-  
-    
-
+  flutter_animate: ^4.5.0
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
-  
-  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-    
-   
-
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -81,15 +61,19 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    
-    
-    - assets\pictures\Screenshot (520).png
-    - assets\pictures\rerr(1).png
-    - assets\pictures\Rectangle 4.png
-    - assets\pictures\brome.png
-    - assets\pictures\mmm.jpeg
-    - assets\pictures\map_style.txt
-    
+    - android\assets\images\46374155.jpg
+    - android\assets\images\jjfbs.webp
+    - android\assets\images\household.jpg
+    - android\assets\images\senpay.jpg
+    - android\assets\images\broond.jpg
+    - android\assets\images\bsss.jpeg
+    - android\assets\images\beck.webp
+    - android\assets\images\jfekj.webp
+    - android\assets\images\camer2.jpg
+    - android\assets\images\exterior copy.jpg
+    - android\assets\images\Camer1.webp
+    - android\assets\images\1704202701410.jpg
+    - android\assets\images\modern-skyscraper-with-glass-facade-greenery-around_1268-15566.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
